@@ -48,8 +48,8 @@ def make_chains(text_string):
     dict_of_words = {}
 
     for word in range(len(words) - 1):
-        if words[word] == words[-1]:
-            break
+        # if words[word] == words[-1]:
+        #     break
         word_key = tuple([words[word], words[word + 1]])
         word_value =  words[word + 2]
         
