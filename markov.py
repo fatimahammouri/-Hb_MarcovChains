@@ -60,16 +60,29 @@ def make_chains(text_string):
 
         print("{key} {list} \n".format(key=word_key, list=dict_of_words[word_key]))
 
-    return dict_of_words
-
+    chains = dict_of_words
+    return chains
 
 
 def make_text(chains):
     """Return text from chains."""
 
+
+
+    # put links in words list 
     words = []
 
-    # your code goes here
+    for key, value in chains.items():
+        #add key to words
+        #add random word from value to the list as well
+
+    #do we choose a new link every iteration, or only one time?
+
+    new_dict = {}
+
+    #new_dict[words[indx + 1]]
+
+    
 
     return ' '.join(words)
 
